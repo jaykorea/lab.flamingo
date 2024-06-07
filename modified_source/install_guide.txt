@@ -10,5 +10,10 @@
 # Add 'rewards.py' into your IsaacLab 'source' folder
 # i.e.) ~/IsaacLab/source/extensions/omni.isaac.lab/omni/isaac/lab/envs/mdp
 
+
+export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.0.0"
+export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/python.sh"
+
+
 # ${ORBIT_PATH}/orbit.sh -p -m pip install --upgrade pip
 # ${ORBIT_PATH}/orbit.sh -p -m pip install -e .
